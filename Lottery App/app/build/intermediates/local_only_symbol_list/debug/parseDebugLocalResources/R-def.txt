@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable download
+drawable download1
+drawable gradient_wall
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btn1
+id btn2
+id edittext
+id heading
+id main
+id numbers
+id text
+layout activity_main
+layout activity_main2
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.LotteryApp
+style Theme.LotteryApp
+xml backup_rules
+xml data_extraction_rules
