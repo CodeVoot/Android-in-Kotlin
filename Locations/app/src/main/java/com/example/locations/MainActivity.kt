@@ -2,10 +2,12 @@ package com.example.locations
 
 import android.Manifest
 import android.app.AlertDialog
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.location.Location
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
@@ -18,10 +20,19 @@ class MainActivity : AppCompatActivity() {
 
     var fusedLocationClient: FusedLocationProviderClient? =null
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
+
+
+        val btn = findViewById<Button>(R.id.mapid)
+
+        btn.setOnClickListener{
+            val intent = Intent(this, MapsActivity::class.java)
+            startActivity(intent)
+        }
 
         // last known location
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
@@ -41,7 +52,7 @@ class MainActivity : AppCompatActivity() {
                         // TODO, handle it
                     } else location.apply {
                         // Handle location object
-                        Log.e("LOG", location.toString())
+                        Log.e("We got the location ", location.toString())
                     }
                 })
         }
