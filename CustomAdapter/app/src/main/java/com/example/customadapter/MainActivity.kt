@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         //  to enable scrollable feature of list
         val myList : ListView = findViewById(R.id.list)
 
-        // data modal to server the data
+        // data modal to serve the data
 //        val operating = arrayOf("Windows","Linux","MAC OS")
 
         // Always use list over the array in case of custom layout
