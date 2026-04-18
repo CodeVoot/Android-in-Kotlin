@@ -1,10 +1,10 @@
-# 📱 Android Development with Kotlin
+# Android Development with Kotlin
 
 This repository documents my journey of learning **Android Development using Kotlin** from multiple books and resources. It includes my notes, code implementations, practice apps, and experiments as I build a strong foundation in Android development.
 
 ---
 
-## 📚 About
+## About
 
 This repo is a collection of everything I’m learning while studying Android development:
 
@@ -18,7 +18,7 @@ The goal is to **learn by building real apps**, not just reading theory.
 
 ---
 
-## 🎯 Goals
+##  Goals
 
 * Master Android fundamentals
 * Become comfortable with Kotlin for Android
@@ -28,7 +28,7 @@ The goal is to **learn by building real apps**, not just reading theory.
 
 ---
 
-## 🧠 Topics Covered
+##  Topics Covered
 
 * Kotlin Basics for Android
 * Android Studio Setup
@@ -43,7 +43,7 @@ The goal is to **learn by building real apps**, not just reading theory.
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 * Kotlin
 * Android Studio
@@ -53,12 +53,12 @@ The goal is to **learn by building real apps**, not just reading theory.
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. Clone the repository:
 
    ```bash
-   git clone <your-repo-link>
+   git clone https://github.com/CodeVoot/Android-in-Kotlin.git
    ```
 
 2. Open in Android Studio:
@@ -74,7 +74,7 @@ The goal is to **learn by building real apps**, not just reading theory.
 
 ---
 
-## 📈 Progress Tracker
+##  Progress Tracker
 
 * [ ] Kotlin Basics
 * [ ] Android Fundamentals
@@ -87,14 +87,14 @@ The goal is to **learn by building real apps**, not just reading theory.
 
 ---
 
-## 📝 Notes
+##  Notes
 
 This repository is part of my personal learning journey using multiple resources and books.
 Content may improve and evolve over time.
 
 ---
 
-## 🔮 Future Plans
+##  Future Plans
 
 * Explore advanced Jetpack Compose
 * Implement clean architecture
@@ -103,7 +103,7 @@ Content may improve and evolve over time.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
